@@ -1,0 +1,48 @@
+.header {
+    width: 1440px;  
+    margin-top: 20px;
+    display: flex;
+
+    &__list {
+        display: flex;
+        margin-left: 59px;
+    }
+
+    &__item {
+        list-style: none;
+        margin-left: 32px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #939CAA;
+        font-family: Space Mono;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 25px; /* 166.667% */
+        
+        &__item {
+            color: #FFF;
+            text-align: center;
+            font-family: Space Mono;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 25px; /* 166.667% */
+            text-decoration: none;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 14px;
+            padding-bottom: 14px;
+            background-color: #FCB72B;
+            margin-left: 400px;
+            border-radius: 10px;
+        }
+
+    }
+    &__logo {
+        margin-left: 169px;
+    }
+}
+

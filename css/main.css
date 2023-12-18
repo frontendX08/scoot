@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Fraunces:opsz,wght@9..144,900&family=Lexend+Deca&family=Livvic:wght@600;700&family=Space+Mono:wght@700&display=swap");
+.header {
+  width: 1440px;
+  margin-top: 20px;
+  display: flex;
+}
+.header__list {
+  display: flex;
+  margin-left: 59px;
+}
+.header__item {
+  list-style: none;
+  margin-left: 32px;
+}
+.header__link {
+  text-decoration: none;
+  color: #939CAA;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+}
+.header__link__item {
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  text-decoration: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #FCB72B;
+  margin-left: 400px;
+  border-radius: 10px;
+}
+.header__logo {
+  margin-left: 169px;
+}
+
+.head {
+  background-image: url("/images/headbackraund.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 650px;
+  flex-shrink: 0;
+  opacity: 0.75;
+  background-color: #2F3B59;
+  margin-top: 33px;
+  border-radius: 5px;
+}
+.head__list__text {
+  margin-left: 165px;
+  padding-top: 115px;
+}
+.head__h1 {
+  width: 500px;
+  color: #FFF;
+  font-family: Space Mono;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; /* 100% */
+  letter-spacing: -2.5px;
+}
+.head__text {
+  margin-left: 95px;
+  width: 405px;
+  color: #FFF;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+  margin-top: 40px;
+}
+.head__item {
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 90px;
+}
+.head__link {
+  border-radius: 5px;
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-family: Space Mono;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #FCB72B;
+}
+.head__list__img {
+  display: flex;
+  margin-left: -165px;
+}
+.head--img--item {
+  margin-top: 100px;
+  margin-left: -35px;
+}
+.head__img__item {
+  margin-top: -80px;
+}
+
+.main {
+  background-image: url("/images/Path2.png");
+  width: 974px;
+  height: 10px;
+  flex-shrink: 0;
+  stroke-width: 15px;
+  stroke: #E5ECF4;
+  margin-top: 208px;
+}
+
+.main__img1 {
+  margin-left: 165px;
+  margin-top: -43px;
+}
+
+.main__img2 {
+  margin-left: 284px;
+  margin-top: -43px;
+}
+
+.main__img3 {
+  margin-left: 284px;
+  margin-top: -43px;
+}
+
+.main__list__img {
+  display: flex;
+}
+
+.main__list__item {
+  margin-left: 165px;
+  display: flex;
+}
+
+.main__list__text {
+  margin-left: 30px;
+}
+.main__h2 {
+  margin-top: 40px;
+  width: 350px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 116.667% */
+  letter-spacing: -1.071px;
+}
+.main__text {
+  margin-top: 27px;
+  width: 350px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+
+.main__widget__list__text {
+  margin-left: 195px;
+  display: flex;
+}
+.main__widget__h3 {
+  width: 445px;
+  color: #495567;
+  font-family: Space Mono;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  letter-spacing: -2.143px;
+}
+.main__widget__text {
+  width: 445px;
+  color: #939CAA;
+  font-family: Lexend Deca;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 166.667% */
+}
+.main__widget--img {
+  margin-left: 100px;
+}
+.main__widget__img {
+  border-radius: 50%;
+  transform: translateX(-500px);
+}
+.main__widget__img__list {
+  display: flex;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Arrial" sans-serif;
+  background-color: white;
+  font-size: 16px;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}/*# sourceMappingURL=main.css.map */
